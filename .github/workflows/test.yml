@@ -1,0 +1,10 @@
+name: MYCI
+
+on:
+  schedule:
+    - cron:   "0 1 * * *"
+
+jobs:
+  runs-on : ubuntu-latest
+  steps:
+  - run: echo
